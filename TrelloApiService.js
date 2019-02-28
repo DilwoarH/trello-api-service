@@ -1,4 +1,4 @@
-class TrelloService 
+class TrelloApiService 
 {
     constructor() {
         this.trello = window.Trello;
