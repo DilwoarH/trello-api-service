@@ -7,5 +7,5 @@ In HTML:
 
 ```
 <script src="https://api.trello.com/1/client.js?key={trello_api_key}"></script>
-<script src="./trelloService.js"></script>
+<script src="./TrelloApiService.js"></script>
 ```
