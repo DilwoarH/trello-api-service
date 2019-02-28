@@ -4,10 +4,10 @@ class TrelloService
         this.trello = window.Trello;
     }
 
-    authorize(success_callback = null, error_callback = null) {
+    authorize(appName = "Trello service", success_callback = null, error_callback = null) {
         return this.trello.authorize({
             type: 'popup',
-            name: 'GOV.UK Step by Step Trello App',
+            name: appName,
             scope: {
                 read: 'true',
                 write: 'true'
